@@ -26,10 +26,6 @@ body {
   background-color: hsl(216, 50%, 16%);
   padding: 2rem;
   width: 30rem;
-  /* position: absolute;
-  top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
   border-radius: 1.2rem;
   margin-bottom: 10rem;
   display: flex;
@@ -122,8 +118,7 @@ body {
 .days-left__icon {
   width: 15px;
 }
-.days-left__text {
-}
+
 .author {
   display: flex;
   align-items: center;
@@ -147,4 +142,14 @@ body {
 .author__name:hover,
 .author__name:active {
   color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  color: #bebebe;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(215, 51%, 70%);
+  text-decoration: none;
 }
